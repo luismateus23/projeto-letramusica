@@ -71,7 +71,7 @@ section#img1{
 }
 section#img2{
     background-image: url(../imagens/chorao3.jpg);
-    background-position: right center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 
