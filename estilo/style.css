@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --preto: #000000;
+    --cinzaescuro: #1C1C1C;
+    --cinza: #333333;
+    --cinzaclaro: #4D4D4D;
+    --cinzamuitoclaro: #bebebe;
+
+}
+body{
+    min-height: 100vh;
+    background-color: var(--cinzaescuro);
+    color: white;
+}
+#cabecalho{
+    background-color: black;
+    color: var(--cinzamuitoclaro);
+    text-align: center;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.801);
+}
+#cabecalho h1{
+    padding-top:50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+
+}
+#cabecalho p{
+    padding-bottom: 50px;
+}
+#cabecalho a, #rodape a{
+    text-decoration: none;
+    color: var(--cinzamuitoclaro);
+}
+#cabecalho a:hover, #rodape a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 40px;
+    font-size: 2.3vw;
+}
+section p{
+    padding-bottom: 2em;
+}
+section.foto{
+    background-color: var(--cinzaclaro);
+    color: var(--cinzamuitoclaro);
+    box-shadow: inset 5px 5px 16px black;
+}
+section.foto > p{
+    background-color: var(--cinzaescuro);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+}
+section#img1{
+    background-image: url(../imagens/chorao4.jpg);
+    background-position: bottom bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img2{
+    background-image: url(../imagens/chorao3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+section#img3{
+    background-image: url('../imagens/chorao5.jpg.crdownload');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#rodape{
+    background-color: black;
+    color: var(--cinzamuitoclaro);
+    text-align: center;
+    padding: 10px;
+}
